@@ -1,0 +1,21 @@
+{
+  "name": "replacing-pattern-collection",
+  "main": "./lib/replacing-pattern-collection",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "replacing-pattern-collection:find",
+      "replacing-pattern-collection:projectFind"
+    ]
+  },
+  "repository": "https://github.com/atom/replacing-pattern-collection",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
