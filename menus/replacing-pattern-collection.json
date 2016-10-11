@@ -1,0 +1,18 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "replacing-pattern-collection",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "replacing-pattern-collection:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

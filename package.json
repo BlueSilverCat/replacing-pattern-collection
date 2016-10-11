@@ -2,20 +2,20 @@
   "name": "replacing-pattern-collection",
   "main": "./lib/replacing-pattern-collection",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "collect often used pattern in find-and-replace",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": [
-      "replacing-pattern-collection:find",
-      "replacing-pattern-collection:projectFind"
+      "replacing-pattern-collection:toggle"
     ]
   },
   "repository": "https://github.com/atom/replacing-pattern-collection",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.11.1 <2.0.0"
   },
   "dependencies": {
+    "cson": "^3.0.2"
   }
 }

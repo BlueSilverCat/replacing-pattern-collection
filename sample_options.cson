@@ -1,0 +1,53 @@
+"replacing-pattern-collection":
+  options: [
+    {
+      findPattern: "^(\\r\\n)"
+      replacePattern: ""
+      pathsPattern: ""
+      projectFind: false
+      useRegex: true
+      caseSensitive: false
+      wholeWord: false
+      inCurrentSelection: false
+    }
+    {
+      findPattern: "(\\d{4})年(0?[1-9]|1[0-2])月(0?[1-9]|[1-2][0-9]|3[0-1])日(?!\\d)"
+      replacePattern: "$1/$2/$3"
+      pathsPattern: ""
+      projectFind: false
+      useRegex: true
+      caseSensitive: true
+      wholeWord: false
+      inCurrentSelection: false
+    }
+    {
+      findPattern: "(\\d{4})\\/(0?[1-9]|1[0-2])\\/(0?[1-9]|[1-2][0-9]|3[0-1])(?!\\d)"
+      replacePattern: "$3/$2/$1"
+      pathsPattern: ""
+      projectFind: false
+      useRegex: true
+      caseSensitive: true
+      wholeWord: false
+      inCurrentSelection: false
+    }
+    {
+      findPattern: "https?://[\\w/:%#\\$&\\?\\(\\)~\\.=\\+\\-]+"
+      replacePattern: ""
+      pathsPattern: ""
+      projectFind: false
+      useRegex: true
+      caseSensitive: true
+      wholeWord: false
+      inCurrentSelection: false
+    }
+    {
+      findPattern: "\\bfunction\\b"
+      replacePattern: ""
+      pathsPattern: "*.js"
+      projectFind: true
+      useRegex: true
+      caseSensitive: true
+      wholeWord: false
+      inCurrentSelection: false
+    }
+  ]
