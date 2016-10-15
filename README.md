@@ -45,4 +45,4 @@ If you want to edit CSON file, edit as below.
 * inCurrentSelection : Boolean. If you use search in current selection, set this to true.
 
 # TODO
-Improve user interface.
+Improve user interface.  

@@ -3,7 +3,9 @@
   "main": "./lib/replacing-pattern-collection",
   "version": "0.1.0",
   "description": "collect often used pattern in find-and-replace",
-  "keywords": [],
+  "keywords": [
+    "search", "replace"
+  ],
   "activationCommands": {
     "atom-workspace": [
       "replacing-pattern-collection:toggle"
