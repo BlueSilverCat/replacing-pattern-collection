@@ -10,7 +10,7 @@
       "replacing-pattern-collection:toggle"
     ]
   },
-  "repository": "https://github.com/atom/replacing-pattern-collection",
+  "repository": "https://github.com/BlueSilverCat/replacing-pattern-collection.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.11.1 <2.0.0"
