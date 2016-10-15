@@ -4,7 +4,7 @@ This package helps using find-and-replace.
 If you often use same complex pattern in find-and-replace, this package is helpful.  
 This package save patterns to file, and load patterns from file.  
 
-![User interface](C:\Users\BlueSilverCat\github\replacing-pattern-collection\replacing-pattern-collection.gif)
+![demo](https://raw.githubusercontent.com/BlueSilverCat/replacing-pattern-collection/master/replacing-pattern-collection.gif?raw=true)
 
 This package use the CSON npm package.
 
@@ -16,7 +16,7 @@ This package use the CSON npm package.
 
 3. Control with UI.
 
-![User interface](C:\Users\BlueSilverCat\github\replacing-pattern-collection\user-interface.png)
+![User interface](https://raw.githubusercontent.com/BlueSilverCat/replacing-pattern-collection/master/user-interface.png?raw=true)
 
 # About CSON file
 If you want to edit CSON file, edit as below.  
