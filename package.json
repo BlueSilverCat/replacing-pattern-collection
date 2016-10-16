@@ -1,10 +1,11 @@
 {
   "name": "replacing-pattern-collection",
   "main": "./lib/replacing-pattern-collection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "collect often used pattern in find-and-replace",
   "keywords": [
-    "search", "replace"
+    "search",
+    "replace"
   ],
   "activationCommands": {
     "atom-workspace": [
