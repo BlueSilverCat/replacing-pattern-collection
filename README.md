@@ -18,12 +18,17 @@ This package use the CSON npm package.
 
 ![User interface](https://raw.githubusercontent.com/BlueSilverCat/replacing-pattern-collection/master/user-interface.png?raw=true)
 
+right, left, up and down key : move focus.  
+escape key : close panel.  
+enter key : pressing enter when focused on the button is equivalent to clicking the button.
+
 # About CSON file
 If you want to edit CSON file, edit as below.  
 ```.coffee
 "replacing-pattern-collection":
   options: [
     {
+      discription : 'remove empty line'
       findPattern: "^(\\r\\n)"
       replacePattern: ""
       pathsPattern: ""
@@ -35,6 +40,7 @@ If you want to edit CSON file, edit as below.
     }
   ]
 ```
+* discription : String. discription of pattern.
 * findPattern : String. this will be used to find.
 * replacePattern : String. this will be used to replace.
 * pathsPattern : String. this will be used to filter file/directory.

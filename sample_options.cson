@@ -1,6 +1,7 @@
 "replacing-pattern-collection":
   options: [
     {
+      discription: "remove empty line"
       findPattern: "^(\\r\\n)"
       replacePattern: ""
       pathsPattern: ""
@@ -11,6 +12,7 @@
       inCurrentSelection: false
     }
     {
+      discription: "convert japanese style date format to american style date format"
       findPattern: "(\\d{4})年(0?[1-9]|1[0-2])月(0?[1-9]|[1-2][0-9]|3[0-1])日(?!\\d)"
       replacePattern: "$1/$2/$3"
       pathsPattern: ""
@@ -21,6 +23,7 @@
       inCurrentSelection: false
     }
     {
+      discription: "convert american style date format to european style date format"
       findPattern: "(\\d{4})\\/(0?[1-9]|1[0-2])\\/(0?[1-9]|[1-2][0-9]|3[0-1])(?!\\d)"
       replacePattern: "$3/$2/$1"
       pathsPattern: ""
@@ -31,6 +34,7 @@
       inCurrentSelection: false
     }
     {
+      discription: "find URL"
       findPattern: "https?://[\\w/:%#\\$&\\?\\(\\)~\\.=\\+\\-]+"
       replacePattern: ""
       pathsPattern: ""
@@ -41,6 +45,7 @@
       inCurrentSelection: false
     }
     {
+      discription: "find javascript function definition"
       findPattern: "\\bfunction\\b"
       replacePattern: ""
       pathsPattern: "*.js"

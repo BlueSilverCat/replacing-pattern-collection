@@ -1,5 +1,11 @@
 {
   "atom-workspace": {
     "F4": "replacing-pattern-collection:toggle"
+  },
+  ".replacing-pattern-collection.root": {
+    "right": "replacing-pattern-collection:next",
+    "left": "replacing-pattern-collection:previous",
+    "down": "replacing-pattern-collection:nextSetButton",
+    "up": "replacing-pattern-collection:previousSetButton"
   }
 }
