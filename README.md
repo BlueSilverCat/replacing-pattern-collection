@@ -18,9 +18,28 @@ This package use the CSON npm package.
 
 ![User interface](https://raw.githubusercontent.com/BlueSilverCat/replacing-pattern-collection/master/user-interface.png?raw=true)
 
-right, left, up and down key : move focus.  
-escape key : close panel.  
-enter key : pressing enter when focused on the button is equivalent to clicking the button.
+# Commands and Key binds
+* `F4`: `replacing-pattern-collection:toggle`  
+  Open panel.  
+* `escape` :  
+  Close panel.  
+
+* `enter` :  
+  Pressing enter when focused on the button is equivalent to clicking the button.
+* `tab`: `replacing-pattern-collection:focusNext`  
+  Focus next element.  
+* `shift-tab`: `replacing-pattern-collection:focusPrevious`  
+  Focus previous element.  
+* `pagedown`: `replacing-pattern-collection:next`  
+  Set next pattern to panel.  
+* `end`: `replacing-pattern-collection:last`  
+  Set last pattern to panel.  
+* `pageup`: `replacing-pattern-collection:previous`  
+  Set previous pattern to panel.  
+* `home`: `replacing-pattern-collection:first`  
+  Set first pattern to panel.  
+* `insert`: `replacing-pattern-collection:set`
+  Set pattern to find-and-replace panel.  
 
 # About CSON file
 If you want to edit CSON file, edit as below.  

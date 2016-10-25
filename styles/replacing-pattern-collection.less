@@ -4,10 +4,8 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-@mini-editor-width: 400px;
-@td-right-width: 160px;
-@ol-width: @mini-editor-width + @td-right-width + 20px;
-@panel-width: @ol-width + 20px;
+@mini-editor-width: 540px;
+@panel-width: @mini-editor-width + 60px;
 
 atom-panel.replacing-pattern-collection {
   width: @panel-width;
@@ -15,34 +13,30 @@ atom-panel.replacing-pattern-collection {
 }
 
 div.replacing-pattern-collection.root {
-}
-
-ol.replacing-pattern-collection {
-  background-color: @overlay-background-color;
-  height: 280px;
-  width: @ol-width;
-  overflow: auto;
-}
-
-li.replacing-pattern-collection {
-  atom-text-editor.mini {
-    width: @mini-editor-width;
-  }
-  span.discription {
-    color: @text-color-subtle;
-    atom-text-editor.mini {
-      width: @mini-editor-width;
-      background-color: darken(@input-background-color, 25%);
-    }
-  }
-  td.replacing-pattern-collection {
-    border: solid 1px;
-    .right {
-      width: @td-right-width;
-    }
-  }
   svg.replacing-pattern-collection {
     width: 12px;
     height: 12px;
+  }
+  table {
+    .left {
+      td {
+        text-align: center;
+        //align-content: center;
+      }
+      atom-text-editor.mini {
+        width: 40px;
+      }
+    }
+    .right {
+      atom-text-editor.mini {
+        width: @mini-editor-width;
+      }
+      span.discription {
+        atom-text-editor.mini {
+          width: @mini-editor-width;
+          background-color: darken(@input-background-color, 25%);
+        }
+      }
+    }
   }
 }
