@@ -23,7 +23,6 @@ This package use the CSON npm package.
   Open panel.  
 * `escape` :  
   Close panel.  
-
 * `enter` :  
   Pressing enter when focused on the button is equivalent to clicking the button.
 * `tab`: `replacing-pattern-collection:focusNext`  
@@ -47,7 +46,7 @@ If you want to edit CSON file, edit as below.
 "replacing-pattern-collection":
   options: [
     {
-      discription : 'remove empty line'
+      description : 'remove empty line'
       findPattern: "^(\\r\\n)"
       replacePattern: ""
       pathsPattern: ""
@@ -59,7 +58,7 @@ If you want to edit CSON file, edit as below.
     }
   ]
 ```
-* discription : String. discription of pattern.
+* description : String. description of pattern.
 * findPattern : String. this will be used to find.
 * replacePattern : String. this will be used to replace.
 * pathsPattern : String. this will be used to filter file/directory.
