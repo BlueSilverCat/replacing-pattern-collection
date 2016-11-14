@@ -4,11 +4,7 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-@mini-editor-width: 540px;
-@panel-width: @mini-editor-width + 60px;
-
 atom-panel.replacing-pattern-collection {
-  width: @panel-width;
   background-color: @overlay-background-color;
 }
 
@@ -18,22 +14,24 @@ div.replacing-pattern-collection.root {
     height: 12px;
   }
   table {
+    width: 100%;
+    //border-style: solid;
     .left {
-      td {
+      width: 10%;
+      tr {
         text-align: center;
-        //align-content: center;
-      }
-      atom-text-editor.mini {
-        width: 40px;
+        atom-text-editor.mini {
+          //width: 100%;
+        }
       }
     }
     .right {
+      width: 90%;
       atom-text-editor.mini {
-        width: @mini-editor-width;
+        //width: 100%;
       }
       span.description {
         atom-text-editor.mini {
-          width: @mini-editor-width;
           background-color: darken(@input-background-color, 25%);
         }
       }
