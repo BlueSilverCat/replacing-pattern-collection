@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "F4": "replacing-pattern-collection:toggle"
+    "F6": "replacing-pattern-collection:toggle"
   },
   ".replacing-pattern-collection.root": {
     "tab": "replacing-pattern-collection:focusNext",
