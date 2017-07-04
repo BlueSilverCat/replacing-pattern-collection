@@ -9,15 +9,16 @@
   ],
   "activationCommands": {
     "atom-workspace": [
-      "replacing-pattern-collection:toggle"
+      "replacing-pattern-collection:toggle",
+      "replacing-pattern-collection:settings"
     ]
   },
   "repository": "https://github.com/BlueSilverCat/replacing-pattern-collection.git",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.11.1 <2.0.0"
+    "atom": ">=1.18.0 <2.0.0"
   },
   "dependencies": {
-    "cson": "^3.0.2"
+    "cson": "^4.1.0"
   }
 }

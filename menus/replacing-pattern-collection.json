@@ -1,18 +1,17 @@
 {
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "replacing-pattern-collection",
+      "submenu": [{
+          "label": "Toggle",
+          "command": "replacing-pattern-collection:toggle"
+        },
         {
-          "label": "replacing-pattern-collection",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "replacing-pattern-collection:toggle"
-            }
-          ]
+          "label": "Settings",
+          "command": "replacing-pattern-collection:settings"
         }
       ]
-    }
-  ]
+    }]
+  }]
 }
