@@ -1,7 +1,7 @@
 {
   "name": "replacing-pattern-collection",
   "main": "./lib/replacing-pattern-collection",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "collect often used pattern in find-and-replace",
   "keywords": [
     "search",
