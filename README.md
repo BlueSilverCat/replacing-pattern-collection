@@ -23,7 +23,7 @@ This package use the CSON npm package.
 3.  Open patterns file.
 4.  File path will be used to Read/Write.
 5.  Close this panel.
-6.  Get patterns form find-and-replace panel.
+6.  Get patterns form find-and-replace panel. add new empty patterns when find-and-replace panel is not opened.
 7.  Set patterns to find-and-replace panel.
 8.  Delete pattern.
 9.  Flag of ProjectFind.

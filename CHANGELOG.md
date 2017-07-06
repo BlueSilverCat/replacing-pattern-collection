@@ -1,3 +1,7 @@
+## 0.5.0
+
+if push `get` when find-and-replace panel is not opened, add new empty patterns.
+
 ## 0.4.0
 
 Change Interface.
