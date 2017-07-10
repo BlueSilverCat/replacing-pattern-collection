@@ -1,7 +1,7 @@
 # replacing-pattern-collection package
 
-This package helps using find-and-replace.  
-If you often use same complex pattern in find-and-replace, this package is helpful.  
+This package helps using `find-and-replace`.  
+If you often use same complex pattern in `find-and-replace`, this package is helpful.  
 This package save patterns to file, and load patterns from file.  
 
 ![demo](https://raw.githubusercontent.com/BlueSilverCat/replacing-pattern-collection/master/replacing-pattern-collection.gif?raw=true)
@@ -10,7 +10,9 @@ This package use the CSON npm package.
 
 # How to use
 
-1.  Set defaultFilePath.
+1.  Set `defaultFilePath`.  
+    File -> Settings -> Packages -> replacing-pattern-collection -> `defaultFilePath` or  
+    Packages -> replacing-pattern-collection -> Settings -> `defaultFilePath`  
 2.  Toggle view. default key is `F6`
 3.  Control with UI.
 
@@ -21,10 +23,12 @@ This package use the CSON npm package.
 1.  Read patterns from file.
 2.  Write patterns to file.
 3.  Open patterns file.
-4.  File path will be used to Read/Write.
+4.  File path will be used to Read/Write/Open.  
+    If change this, `defaultFilePath` is also changed.
 5.  Close this panel.
-6.  Get patterns form find-and-replace panel. add new empty patterns when find-and-replace panel is not opened.
-7.  Set patterns to find-and-replace panel.
+6.  Get patterns form `find-and-replace` panel.  
+    Add new empty patterns when `find-and-replace` panel is not opened.
+7.  Set patterns to `find-and-replace` panel.
 8.  Delete pattern.
 9.  Flag of ProjectFind.
 10. Flag of UseRegex.
@@ -44,26 +48,17 @@ This package use the CSON npm package.
 
 # Commands and Key binds
 
--   `F6`: `replacing-pattern-collection:toggle`  
-    Open panel.  
--   `escape` :  
-    Close panel.  
--   `enter` :  
-    Pressing enter when focused on the button is equivalent to clicking the button.
--   `tab`: `replacing-pattern-collection:focusNext`  
-    Focus next element.  
--   `shift-tab`: `replacing-pattern-collection:focusPrevious`  
-    Focus previous element.  
--   `pagedown`: `replacing-pattern-collection:next`  
-    Set next pattern to panel.  
--   `end`: `replacing-pattern-collection:last`  
-    Set last pattern to panel.  
--   `pageup`: `replacing-pattern-collection:previous`  
-    Set previous pattern to panel.  
--   `home`: `replacing-pattern-collection:first`  
-    Set first pattern to panel.  
--   `insert`: `replacing-pattern-collection:set`
-    Set pattern to find-and-replace panel.  
+| Keystroke | Command                                    | Description                           | Selector                           | Source                       |
+| :-------- | :----------------------------------------- | :------------------------------------ | :--------------------------------- | :--------------------------- |
+| F6        | replacing-pattern-collection:toggle        | Open panel                            | atom-workspace                     | Replacing Pattern Collection |
+| escape    |                                            | Close panel                           |                                    |                              |
+| tab       | replacing-pattern-collection:focusNext     | Focus next element                    | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| shift-tab | replacing-pattern-collection:focusPrevious | Focus previous element                | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| pagedown  | replacing-pattern-collection:next          | Set next pattern to panel             | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| end       | replacing-pattern-collection:last          | Set last pattern to panel             | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| pageup    | replacing-pattern-collection:previous      | Set previous pattern to panel         | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| home      | replacing-pattern-collection:first         | Set first pattern to panel            | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| insert    | replacing-pattern-collection:set           | Set pattern to find-and-replace panel | .replacing-pattern-collection.root | Replacing Pattern Collection |
 
 # About CSON file
 
