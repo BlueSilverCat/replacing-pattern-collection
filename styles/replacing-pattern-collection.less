@@ -3,24 +3,30 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
-atom-panel.replacing-pattern-collection {
-  background-color: @overlay-background-color;
-}
+
 div.replacing-pattern-collection.root {
   svg.replacing-pattern-collection {
     width: 12px;
     height: 12px;
   }
+
   button.replacing-pattern-collection.btn.set {
     color: cyan;
     font-weight: bold;
   }
+
   input.currentNumber {
     width: 50px;
   }
+
+  input.description {
+    background-color: darken(@input-background-color, 25%);
+  }
+
   span.flags {
     margin-left: 10px;
   }
+
   table {
     width: 100%;
     .left {
