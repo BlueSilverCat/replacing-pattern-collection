@@ -48,17 +48,17 @@ This package use the CSON npm package.
 
 # Commands and Key binds
 
-| Keystroke | Command                                    | Description                             | Selector                           | Source                       |
-| :-------- | :----------------------------------------- | :-------------------------------------- | :--------------------------------- | :--------------------------- |
-| F6        | replacing-pattern-collection:toggle        | Open/Close panel                        | atom-workspace                     | Replacing Pattern Collection |
-| escape    |                                            | Close panel                             |                                    |                              |
-| tab       | replacing-pattern-collection:focusNext     | Focus next element                      | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| shift-tab | replacing-pattern-collection:focusPrevious | Focus previous element                  | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| pagedown  | replacing-pattern-collection:next          | Set next pattern to panel               | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| end       | replacing-pattern-collection:last          | Set last pattern to panel               | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| pageup    | replacing-pattern-collection:previous      | Set previous pattern to panel           | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| home      | replacing-pattern-collection:first         | Set first pattern to panel              | .replacing-pattern-collection.root | Replacing Pattern Collection |
-| insert    | replacing-pattern-collection:set           | Set pattern to `find-and-replace` panel | .replacing-pattern-collection.root | Replacing Pattern Collection |
+| Keystroke | Command                                    | Description                             | Selector                           |
+| :-------- | :----------------------------------------- | :-------------------------------------- | :--------------------------------- |
+| F6        | replacing-pattern-collection:toggle        | Open/Close panel                        | atom-workspace                     |
+| escape    | core:cancel                                | Close panel                             | atom-workspace                     |
+| tab       | replacing-pattern-collection:focusNext     | Focus next element                      | .replacing-pattern-collection.root |
+| shift-tab | replacing-pattern-collection:focusPrevious | Focus previous element                  | .replacing-pattern-collection.root |
+| pagedown  | replacing-pattern-collection:next          | Set next pattern to panel               | .replacing-pattern-collection.root |
+| end       | replacing-pattern-collection:last          | Set last pattern to panel               | .replacing-pattern-collection.root |
+| pageup    | replacing-pattern-collection:previous      | Set previous pattern to panel           | .replacing-pattern-collection.root |
+| home      | replacing-pattern-collection:first         | Set first pattern to panel              | .replacing-pattern-collection.root |
+| insert    | replacing-pattern-collection:set           | Set pattern to `find-and-replace` panel | .replacing-pattern-collection.root |
 
 # About CSON file
 
