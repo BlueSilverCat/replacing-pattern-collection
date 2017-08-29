@@ -1,3 +1,11 @@
+## 0.8.0
+
+Use npm package.
+
+## 0.7.0
+
+Change utilities to submodule.
+
 ## 0.6.0
 
 When change `filePath`, `defaultFilePath` is also changed.
